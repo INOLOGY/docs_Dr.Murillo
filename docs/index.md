@@ -6,12 +6,12 @@ A INOLOGY desenvolveu um sistema para a cliníca DR.Murillo com especialidade em
 
 <br>
 
-## Visão geral
+## Visão do produto
 -----
 
 * Tela Inicial
 
-Na tela inicial temos uma barra de navegação a esquerda que é contida em todas as tela de navegação **exceto** as tela de atendimento; na divisão central é mostrado a agenda do dia mostrando todos os pacientes marcados para tal, por fim no canto superior direito temos opção de **ADM** que tem o papel de selecionar diferentes perfis para acessar diferentes funções ao sistema. (quem terá acesso somente com a autorização do proprietário do sistema.)
+Na tela inicial temos uma barra de navegação a esquerda que é contida em todas as tela de navegação **exceto** as tela de atendimento; na divisão central é mostrado a agenda do dia mostrando todos os pacientes marcados para tal, por fim no canto superior direito temos opção de **ADM** que tem o papel de selecionar diferentes perfis para acessar diferentes funções ao sistema. (terá acesso somente com a autorização do proprietário do sistema.)
   <img src="img/telas/tela-inicial.png" alt="Image 1">
 
 * Seção de cadastros
@@ -80,21 +80,43 @@ Em Médico será visto a agenda do dia dos pacientes marcados com o médico e no
 
 Em agendamento o secretário terá funções de agendar e alterar o status de um paciente (que é previamente é cadastrado na **tela cadastro paciente**)
 
+
 <div class="image-row">
-  <img src="img/telas/tela-aaagenda-medico.png" alt="Image 4">
-  <img src="img/telas/tela-atendimento-medico.png" alt="Image 4">
+  <img src="img/telas/tela-agendamento.png" alt="Image 4">
+  <img src="img/telas/status-paciente.png" alt="Image 4">
 </div>
 
 
 
 
+<br>
 
+## Impacto
 
-## Project layout
+-----
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div class="container1">
+        <div class="item">
+            <h4>Eficiência Operacional</h4>
+            <ul>
+                <li>Automação de processos</li>
+                <li>Gestão de estoque otimizada</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h4>Aumento do controle e Visibilidade</h4>
+            <ul>
+                <li>Visão clara dos dados</li>
+                <li>Redução de erros</li>
+                <li>Vantagem comercial</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h4>Produtividade e Organização interna</h4>
+            <ul>
+                <li>Maior produtividade</li>
+                <li>Integração e comunicação</li>
+            </ul>
+        </div>
+    </div>
 
-##  -asdasdas

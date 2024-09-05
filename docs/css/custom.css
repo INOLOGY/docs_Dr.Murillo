@@ -18,3 +18,24 @@
   height: auto;
   object-fit: cover;
 }
+
+
+.container1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+            gap: 10px; /* Espaço entre as colunas */
+            margin: 20px; /* Margem ao redor da grid */
+            
+           
+        }
+        .item {
+            border: 1px solid #ddd; /* Borda para os itens */
+            padding: 10px; /* Espaço interno dos itens */
+            background-color: #f9f9f900; /* Cor de fundo dos itens */
+            
+            
+        }
+        h4 {
+            margin-top: 0; /* Remove a margem superior dos h4 */
+        }
+

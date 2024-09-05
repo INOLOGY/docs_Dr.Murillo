@@ -1,0 +1,20 @@
+
+
+.md-nav__link {
+    color: black; /* Cor dos links na navbar */
+}
+
+.md-nav__link:hover {
+    color: black; /* Cor dos links ao passar o mouse */
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between; /* Para ajustar o espaço entre as imagens */
+}
+
+.image-row img {
+  width: 48%; /* Ajuste o tamanho conforme necessário para caberem na mesma linha */
+  height: auto;
+  object-fit: cover;
+}

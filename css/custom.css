@@ -1,0 +1,41 @@
+
+
+.md-nav__link {
+    color: black; /* Cor dos links na navbar */
+}
+
+.md-nav__link:hover {
+    color: black; /* Cor dos links ao passar o mouse */
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between; /* Para ajustar o espaço entre as imagens */
+}
+
+.image-row img {
+  width: 48%; /* Ajuste o tamanho conforme necessário para caberem na mesma linha */
+  height: auto;
+  object-fit: cover;
+}
+
+
+.container1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+            gap: 10px; /* Espaço entre as colunas */
+            margin: 20px; /* Margem ao redor da grid */
+            
+           
+        }
+        .item {
+            border: 1px solid #ddd; /* Borda para os itens */
+            padding: 10px; /* Espaço interno dos itens */
+            background-color: #f9f9f900; /* Cor de fundo dos itens */
+            
+            
+        }
+        h4 {
+            margin-top: 0; /* Remove a margem superior dos h4 */
+        }
+

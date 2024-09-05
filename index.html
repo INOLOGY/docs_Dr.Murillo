@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>DR.Murillo</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" >
+        <link href="css/custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">DR.Murillo</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#apresentacao-do-sistema" class="nav-link">Apresentação do Sistema</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#visao-do-produto" class="nav-link">Visão do produto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#impacto" class="nav-link">Impacto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="apresentacao-do-sistema">Apresentação do Sistema</h1>
+<hr />
+<p>A INOLOGY desenvolveu um sistema para a cliníca DR.Murillo com especialidade em geriatria, utilizando Power Apps e Microsoft Lists, que oferece funcionalidades avançadas para o controle de agenda de atendimentos e gerenciamento de estoque. O sistema permite que a clínica organize de forma eficiente os horários de consultas, otimizando o atendimento aos pacientes, enquanto facilita a gestão de produtos e insumos, garantindo maior controle e visibilidade do estoque. Com uma interface intuitiva e recursos automatizados, o sistema visa aumentar a produtividade e melhorar a organização interna da clínica.</p>
+<p><br></p>
+<h2 id="visao-do-produto">Visão do produto</h2>
+<hr />
+<ul>
+<li>Tela Inicial</li>
+</ul>
+<p>Na tela inicial temos uma barra de navegação a esquerda que é contida em todas as tela de navegação <strong>exceto</strong> as tela de atendimento; na divisão central é mostrado a agenda do dia mostrando todos os pacientes marcados para tal, por fim no canto superior direito temos opção de <strong>ADM</strong> que tem o papel de selecionar diferentes perfis para acessar diferentes funções ao sistema. (terá acesso somente com a autorização do proprietário do sistema.)
+  <img src="img/telas/tela-inicial.png" alt="Image 1"></p>
+<ul>
+<li>Seção de cadastros</li>
+</ul>
+<p>Na seção de cadastro mostra as diferentes opções de cadastro.</p>
+<p><img src="img/telas/tela-cadastros.png" alt="Image 2"></p>
+<ul>
+<li>Tela de cadasto de paciente</li>
+</ul>
+<p>Na tela de cadastro de paciente é listado todos os paciente cadastrados podendo: <strong>cadastrar</strong>, <strong>excluir</strong> e <strong>editar</strong></p>
+<div class="image-row">
+  <img src="img/telas/tela-lista-pacientes.png" alt="Image 3">
+  <img src="img/telas/tela-cadasto-paciente.png" alt="Image 4">
+</div>
+
+<ul>
+<li>Tela de cadasto de medicamento</li>
+</ul>
+<p>Na tela de cadastro de medicamento é listado todos os medicamentos cadastrados podendo: <strong>cadastrar</strong>, <strong>excluir</strong> e <strong>editar</strong></p>
+<div class="image-row">
+  <img src="img/telas/tela-lista-medicamento.png" alt="Image 3">
+  <img src="img/telas/tela-cadasto-medicamnto.png" alt="Image 4">
+</div>
+
+<ul>
+<li>Tela de cadasto de tratamento</li>
+</ul>
+<p>Na tela de cadastro de tratamento é listado todos os tratamentos cadastrados podendo: <strong>cadastrar</strong>, <strong>excluir</strong> e <strong>editar</strong>.</p>
+<div class="image-row">
+  <img src="img/telas/tela-lista-tratamentos.png" alt="Image 3">
+  <img src="img/telas/tela-cadastro-tratamento.png" alt="Image 4">
+</div>
+
+<ul>
+<li>Seção de Estoque</li>
+</ul>
+<p>Na aba de estoque temos todos os medicamentos cadastrados sendo possível fazer movitações de <strong>entrada</strong> e <strong>saída</strong>.</p>
+<p><img src="img/telas/tela-estoque.png" alt="Image 4"></p>
+<ul>
+<li>Seção de Orçamento</li>
+</ul>
+<p>Em Orçamento o gestor resposável pela clínica poderá visualizar um painel BI que é alimentado pelos dados das movimentações de medicamento e tratamento.</p>
+<p><img src="img/telas/painel-controle-caixa.png" alt="Image 4"></p>
+<ul>
+<li>Seção de Enfermagem</li>
+</ul>
+<p>Em Enfermagem será visto a agenda do dia dos pacientes marcados com o enfermeiro e no ícone de <strong>tesoura</strong> será feito o início do atendimento do paciente.</p>
+<p><img src="img/telas/tela-atendimento-enfermeira.png" alt="Image 4"></p>
+<ul>
+<li>Seção do Médico</li>
+</ul>
+<p>Em Médico será visto a agenda do dia dos pacientes marcados com o médico e no ícone do <strong>estetoscópio</strong> será feito o início do atendimento do paciente.</p>
+<div class="image-row">
+  <img src="img/telas/tela-aaagenda-medico.png" alt="Image 4">
+  <img src="img/telas/tela-atendimento-medico.png" alt="Image 4">
+</div>
+
+<ul>
+<li>Seção de Agendamento</li>
+</ul>
+<p>Em agendamento o secretário terá funções de agendar e alterar o status de um paciente (que é previamente é cadastrado na <strong>tela cadastro paciente</strong>)</p>
+<div class="image-row">
+  <img src="img/telas/tela-agendamento.png" alt="Image 4">
+  <img src="img/telas/status-paciente.png" alt="Image 4">
+</div>
+
+<p><br></p>
+<h2 id="impacto">Impacto</h2>
+<hr />
+<div class="container1">
+        <div class="item">
+            <h4>Eficiência Operacional</h4>
+            <ul>
+                <li>Automação de processos</li>
+                <li>Gestão de estoque otimizada</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h4>Aumento do controle e Visibilidade</h4>
+            <ul>
+                <li>Visão clara dos dados</li>
+                <li>Redução de erros</li>
+                <li>Vantagem comercial</li>
+            </ul>
+        </div>
+        <div class="item">
+            <h4>Produtividade e Organização interna</h4>
+            <ul>
+                <li>Maior produtividade</li>
+                <li>Integração e comunicação</li>
+            </ul>
+        </div>
+    </div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2024-09-05 19:41:24.114994+00:00
+-->
